@@ -11,13 +11,25 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <service
+            android:name=".notifications.QuickNoteService"
+            android:exported="false" />
+
+        <receiver
+            android:name=".notifications.NotificationReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="timefish.com.basket.action.SAVE_NOTE" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>
