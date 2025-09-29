@@ -1,4 +1,17 @@
 <resources>
     <string name="app_name">Basket</string>
-    <string name="action_settings">Settings</string>
+    <string name="quick_note_title">Quick note</string>
+    <string name="quick_note_description">Add notes instantly from here.</string>
+    <string name="quick_note_channel_name">Quick note</string>
+    <string name="quick_note_channel_description">Allows adding notes from the persistent notification.</string>
+    <string name="quick_note_input_hint">Type your note</string>
+    <string name="quick_note_tag_hint">Pick a tag</string>
+    <string name="quick_note_add_action">Save</string>
+    <string name="quick_note_saved_title">Note saved</string>
+    <string name="quick_note_saved_message">Your note has been added.</string>
+    <string name="quick_note_empty_message">Cannot save an empty note</string>
+    <string name="grouping_label">Group notes by</string>
+    <string name="group_by_day">Day added</string>
+    <string name="group_by_tag">Tag</string>
+    <string name="empty_notes_message">Notes that you save from the notification will appear here.</string>
 </resources>
